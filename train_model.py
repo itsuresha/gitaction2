@@ -12,4 +12,5 @@ model.fit(X, y)
 with open("model.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("Model trained and saved to model100 and deploy100 to model.pkl")
+#print("Model trained and saved to model100 and deploy100 to model.pkl")
+print("Model trained and saved with the help of GIT action")
